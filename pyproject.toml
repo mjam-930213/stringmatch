@@ -1,0 +1,22 @@
+[project]
+name = "stringmatch"
+license = {file = "LICENSE"}
+description = "This package helps to match one string to its nearest match. A good usage is to go from abbreviations to full length column names."
+readme = "README.md"
+dependencies = []
+dynamic = ["version"]
+
+[project.optional-dependencies]
+dev = ["black", "coverage"]
+
+[project.scripts]
+
+[tool.black]
+
+
+[tool.setuptools.dynamic]
+version = {attr = "stringmatch.__version__"}
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
