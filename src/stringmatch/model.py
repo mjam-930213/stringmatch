@@ -67,12 +67,12 @@ def calc_levenshtein_distance(input_string: str, target_string: str, weights: tu
   """
   # Type checks of input arguments
   if type(input_string) != str or type(target_string) != str:
-    raise('input_string and target_string arguments must be of type str.')
+    raise Exception('input_string and target_string arguments must be of type str.')
    
   if len(weights) != 3:
-    raise('Incorrect number of weights given - must be exactly 3')
+    raise Exception('Incorrect number of weights given - must be exactly 3')
 
-  return levenshtein_distance(input_string, target_string, weights)
+  return levenshtein_distance(input_string, target_string, weights=weights)
 
 def calc_damerau_levenshtein_distance(input_string: str, target_string: str, weights: tuple = (1, 1, 1, 1)) -> int:
   """
@@ -91,10 +91,10 @@ def calc_damerau_levenshtein_distance(input_string: str, target_string: str, wei
   """
   # Type checks of input arguments
   if type(input_string) != str or type(target_string) != str:
-    raise('input_string and target_string arguments must be of type str.')
+    raise Exception('input_string and target_string arguments must be of type str.')
    
   if len(weights) != 4:
-    raise('Incorrect number of weights given - must be exactly 4')
+    raise Exception('Incorrect number of weights given - must be exactly 4')
 
   return damerauLevenshtein(input_string, 
                             target_string,
@@ -118,7 +118,7 @@ def calc_jaro_distance(input_string: str, target_string: str, weight: float = 1)
   """
   # Type checks of input arguments
   if type(input_string) != str or type(target_string) != str:
-    raise('input_string and target_string arguments must be of type str.')
+    raise Exception('input_string and target_string arguments must be of type str.')
 
   return 1 - jaro_distance(input_string, target_string)
 
@@ -137,11 +137,12 @@ def calc_jaro_winkler_distance(input_string: str, target_string: str, weight: fl
   """
   # Type checks of input arguments
   if type(input_string) != str or type(target_string) != str:
-    raise('input_string and target_string arguments must be of type str.')
+    raise Exception('input_string and target_string arguments must be of type str.')
   
-  if type(weight) != (float | int) or weight < 0 or weight > 1:
-    raise('weight parameter is incorrect. Must be of type float or int, and between 0 and 1, inclusive.')
+  if type(weight) not in [float, int, np.float64]: # or weight < 0 or weight > 1:
+    raise Exception('weight parameter is incorrect. Must be of type float or int, and between 0 and 1, inclusive.')
 
+  # print('weight: ', weight)
   return 1 - jaro_winkler_distance(input_string, target_string, prefix_weight=weight)
 
 def calc_distance(input_string: str, target_string: str, algorithm: str = 'levenshtein', weights: (tuple | float) = (1, 1, 1)) -> (int | float):
@@ -159,10 +160,10 @@ def calc_distance(input_string: str, target_string: str, algorithm: str = 'leven
   """
   # Type checks of input arguments
   if type(input_string) != str or type(target_string) != str or type(algorithm) != str:
-    raise('input_string, target_string and algorithm arguments must be of type str.')
+    raise Exception('input_string, target_string and algorithm arguments must be of type str.')
   
-  if type(weights) != tuple and type(weights) != float:
-    raise('weights argument must be of type tuple or float.')
+  if type(weights) != tuple and type(weights) != float and type(weights) != np.float64:
+    raise Exception('weights argument must be of type tuple or float.')
 
   algorithms = {'levenshtein': calc_levenshtein_distance,
                 'damerau-levenshtein': calc_damerau_levenshtein_distance,
@@ -192,14 +193,13 @@ def find_best_match_for_string(input_string: str,
   
   # Type checks of input arguments
   if type(input_string) != str or type(algorithm) != str:
-    raise('input_string, target_string and algorithm arguments must be of type str.')
+    raise Exception('input_string, target_string and algorithm arguments must be of type str.')
   
   if not all(isinstance(string, str) for string in target_string_list):
-    raise('All elements in target_string_list must be of type string.')
+    raise Exception('All elements in target_string_list must be of type string.')
 
-  if type(weights) != tuple and type(weights) != float:
-    raise('weights argument must be of type tuple or float.')
-
+  if type(weights) not in [tuple, float, np.float64]:
+    raise Exception('weights argument must be of type tuple or float')
   if algorithm in ['levenshtein', 'damerau-levenshtein', 'jaro', 'jaro-winkler']:
       best_estimate = ''
       best_distance = np.inf
@@ -211,7 +211,7 @@ def find_best_match_for_string(input_string: str,
               best_distance = distance
               
   else:
-      raise('Invalid input into algorithm paramerter.')
+      raise Exception('Invalid input into algorithm paramerter.')
 
   return best_estimate, best_distance
     
@@ -255,9 +255,9 @@ def calc_accuracy(y_pred: pd.Series, y_true: pd.Series) -> float:
       An accuracy for the number of "correct" predictions made.
   """
   if y_pred.shape[0] != y_true.shape[0]:
-    raise('y_pred and y_true are not of the same-sized arrays.')
+    raise Exception('y_pred and y_true are not of the same-sized arrays.')
 
-  return (y_true == y_pred).sum() / y_true.shape[0]
+  return (y_true.values == y_pred.values).sum() / y_true.shape[0]
 
 def calc_accuracy_for_matches(input_string_list: List[str],
                               target_string_list: List[str],
@@ -280,7 +280,7 @@ def calc_accuracy_for_matches(input_string_list: List[str],
   _ = check_input_target_string_lists(input_string_list, target_string_list)
   _ = check_algorithm_argument(algorithm)
 
-  matches = find_best_match_for_list_of_strings(input_string_list, target_string_list, algorithm, weights= weights)
+  matches = find_best_match_for_list_of_strings(input_string_list, target_string_list, algorithm, weights=weights)
   df_best_matches = pd.DataFrame(matches, columns=['Input', 'Estimate', 'Distance'])
   y_pred = df_best_matches['Estimate']
   accuracy = calc_accuracy(y_pred, y_true)
@@ -314,7 +314,7 @@ def cross_val_levenshtein(input_string_list: List[str],
   for i in range(1, max_weights[0]+1):
           for j in range(1, max_weights[1]+1):
               for k in range(1, max_weights[2]+1):
-                  accuracy = calc_accuracy_for_matches(input_string_list, target_string_list, y_true, algorithm, max_weights)
+                  accuracy = calc_accuracy_for_matches(input_string_list, target_string_list, y_true, algorithm, (i, j, k))
                   weights_score.append(((i, j, k), accuracy))
 
                   if verbose:
@@ -351,7 +351,7 @@ def cross_val_damerau_levenshtein(input_string_list: List[str],
           for j in range(1, max_weights[1]+1):
               for k in range(1, max_weights[2]+1):
                   for m in range(1, max_weights[3]+1):
-                      accuracy = calc_accuracy_for_matches(input_string_list, target_string_list, y_true, algorithm, max_weights)
+                      accuracy = calc_accuracy_for_matches(input_string_list, target_string_list, y_true, algorithm, (i, j, k, m))
                       weights_score.append(((i, j, k, m), accuracy))
 
                       if verbose:
@@ -417,7 +417,7 @@ def cross_val_jaro_winkler(input_string_list: List[str],
 
   weights_score = []
   for i in weights:
-    accuracy = calc_accuracy_for_matches(input_string_list, target_string_list, y_true, algorithm, weights)
+    accuracy = calc_accuracy_for_matches(input_string_list, target_string_list, y_true, algorithm, i)
     weights_score.append((i, accuracy))
 
     if verbose:

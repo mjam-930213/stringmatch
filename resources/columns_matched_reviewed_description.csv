@@ -1,0 +1,891 @@
+Non-GPO,GPO
+dk01                ,?
+dk02                ,?
+dk03                ,?
+dk04                ,?
+dk10.cicsregion     ,?
+dk10.mfdate_dd      ,?
+dk10.mfdate_mm      ,?
+dk10.mfdate_yyyy    ,?
+dk10.time           ,?
+dk10._seq           ,?
+dk12.accessitems    ,?
+dk12.accessitemscount,?
+dk12._seq           ,?
+dl01                ,?
+dl10                ,?
+dl12.companyname    ,commercial_name
+dl12.datedissvd_dd  ,identification.dissolution_date
+dl12.datedissvd_mm  ,identification.dissolution_date
+dl12.datedissvd_yyyy,identification.dissolution_date
+dl12.dateincorp_dd  ,identification.incorporation_date
+dl12.dateincorp_mm  ,identification.incorporation_date
+dl12.dateincorp_yyyy,identification.incorporation_date
+dl12.legalstatus    ,identification.legal_status
+dl12.regaddr1       ,identification.registered_office.location_line1
+dl12.regaddr2       ,identification.registered_office.location_line2
+dl12.regaddr3       ,identification.registered_office.location_line3
+dl12.regaddr4       ,identification.registered_office.location_line4
+dl12.regnumber      ,reg_number
+dl12.regpostcode    ,identification.registered_office.postcode
+dl12._seq           ,?
+dl13.asregofficeflag,identification.as_registered_office
+dl13.issuedcap      ,identification.issued_capital
+dl13.issuedcapcurr  ,identification.currency
+dl13.len1980sic     ,?
+dl13.len1992sic     ,?
+dl13.lenprincactiv  ,?
+dl13.lentraddets    ,?
+dl13.princactivities,identification.principal_activities
+dl13.regnumber      ,?
+dl13.sic1980code1   ,identification.sic_information1980
+dl13.sic1980code2   ,identification.sic_information1980
+dl13.sic1980code3   ,identification.sic_information1980
+dl13.sic1980code4   ,identification.sic_information1980
+dl13.sic1980desc1   ,?
+dl13.sic1992code1   ,identification.sic_information1992
+dl13.sic1992code2   ,identification.sic_information1992
+dl13.sic1992code3   ,identification.sic_information1992
+dl13.sic1992code4   ,identification.sic_information1992
+dl13.sic1992desc1   ,?
+dl13.sic1992desc2   ,?
+dl13.sic1992desc3   ,?
+dl13.sic1992desc4   ,?
+dl13.tradaddr1      ,identification.trading_location.location_line1
+dl13.tradaddr2      ,identification.trading_location.location_line2
+dl13.tradaddr3      ,identification.trading_location.location_line3
+dl13.tradaddr4      ,identification.trading_location.location_line4
+dl13.tradaddr5      ,identification.trading_location.location_line5
+dl13.tradphonenum   ,identification.trading_telephone_num
+dl13.tradpostcode   ,identification.trading_location.postcode
+dl13._seq           ,?
+dl14.numprevnames   ,identification.previous_names.num_prev_names
+dl14.prevnames      ,identification.previous_names.previous_name
+dl14.regnumber      ,?
+dl14._seq           ,?
+dl15.numprevaddresses,identification.previous_addresses.num_prev_addresses
+dl15.prevcompnames  ,identification.previous_addresses.previous_cro
+dl15.regnumber      ,?
+dl15._seq           ,?
+dl16.accsrefdate_dd ,identification.filing_details.accounts_ref_date.dd
+dl16.accsrefdate_mm ,identification.filing_details.accounts_ref_date.mm
+dl16.dbaccoutofdate ,identification.filing_details.database_accounts_out_of_date
+dl16.filedaccoutofdate,identification.filing_details.filed_accounts_out_of_date
+dl16.latestaccs_dd  ,identification.filing_details.latest_accounts
+dl16.latestaccs_mm  ,identification.filing_details.latest_accounts
+dl16.latestaccs_yyyy,identification.filing_details.latest_accounts
+dl16.latestaccsonfile_dd,identification.filing_details.latest_accounts_database
+dl16.latestaccsonfile_mm,identification.filing_details.latest_accounts_database
+dl16.latestaccsonfile_yyyy,identification.filing_details.latest_accounts_database
+dl16.latestaccstype ,identification.filing_details.latest_account_type
+dl16.latestauditor  ,?
+dl16.latestrets_dd  ,identification.filing_details.latest_returns
+dl16.latestrets_mm  ,identification.filing_details.latest_returns
+dl16.latestrets_yyyy,identification.filing_details.latest_returns
+dl16.latestretsonfile_dd,identification.filing_details.latest_returns_database
+dl16.latestretsonfile_mm,identification.filing_details.latest_returns_database
+dl16.latestretsonfile_yyyy,identification.filing_details.latest_returns_database
+dl16.numaccsonfile  ,identification.filing_details.num_accounts_on_file
+dl16.numdaystofileaccs,identification.filing_details.number_days_to_file_accounts
+dl16.regnumber      ,?
+dl16._seq           ,?
+dl17.bankaddr1      ,identification.bank.bank_location.location_line1
+dl17.bankaddr2      ,identification.bank.bank_location.location_line2
+dl17.bankaddr3      ,identification.bank.bank_location.location_line3
+dl17.bankaddr4      ,identification.bank.bank_location.location_line4
+dl17.bankname       ,identification.bank.bank_name
+dl17.bankpostcode   ,identification.bank.bank_location.postcode
+dl17.banksortcode   ,identification.bank.bank_sortcode
+dl17.regnumber      ,?
+dl17._seq           ,?
+dl19.numcrochanges  ,identification.cro_changes.num_cro_changes
+dl19.numprevnames   ,?
+dl19.numprevregoffices,?
+dl19.numprincsharehlds,?
+dl19.numsubsids     ,?
+dl19.regnumber      ,?
+dl19._seq           ,?
+dl20.lenprevsrchs   ,?
+dl20.numprevsrchs   ,?
+dl20.numprevsrchtypes,?
+dl20.prevsrchsdata  ,identification.prev_searches.previous_search_detail
+dl20.prevsrchstypes ,?
+dl20.regnumber      ,?
+dl20._seq           ,?
+dl21.numprevsrchs   ,identification.prev_searches.num_prev_search
+dl21.numprevsrchs_12mths,identification.prev_searches.num_prev_search12_mth
+dl21.numprevsrchs_3mths,identification.prev_searches.num_prev_search3_mth
+dl21.numprevsrchs_6mths,identification.prev_searches.num_prev_search6_mth
+dl21.regnumber      ,?
+dl21._seq           ,?
+dl22.numccls        ,identification.cc_ls.total_number_ccl
+dl22.regnumber      ,?
+dl22._seq           ,?
+dl23.bulksharehlds  ,corporate_structure.company_ownership.bulk_share_holders
+dl23.bulktelephone  ,corporate_structure.company_ownership.bulk_telephone
+dl23.lenpardets     ,?
+dl23.lenprevpardets ,?
+dl23.lenprevultpardets,?
+dl23.lenprincshareholders,?
+dl23.lenultpardets  ,?
+dl23.numprincsharehlds,corporate_structure.company_ownership.num_princ_share_hldrs
+dl23.parcountry     ,corporate_structure.company_ownership.par_country
+dl23.parentname     ,corporate_structure.company_ownership.parent_detail.commercial_name
+dl23.parregaddr1    ,corporate_structure.company_ownership.parent_detail.business_location.location_line1
+dl23.parregaddr2    ,corporate_structure.company_ownership.parent_detail.business_location.location_line2
+dl23.parregaddr3    ,corporate_structure.company_ownership.parent_detail.business_location.location_line3
+dl23.parregaddr4    ,corporate_structure.company_ownership.parent_detail.business_location.location_line4
+dl23.parregnum      ,corporate_structure.company_ownership.par_reg_number
+dl23.parregpostcode ,corporate_structure.company_ownership.parent_detail.business_location.postcode
+dl23.prevparcountry ,corporate_structure.company_ownership.prev_par_country
+dl23.prevparname    ,corporate_structure.company_ownership.prev_par_name.commercial_name
+dl23.prevparregnum  ,corporate_structure.company_ownership.prev_par_reg_number
+dl23.prevultparcountry,corporate_structure.company_ownership.prev_ult_par_country
+dl23.prevultparname ,corporate_structure.company_ownership.prev_ult_par_name.commercial_name
+dl23.prevultparregnum,corporate_structure.company_ownership.prev_ult_par_reg_number
+dl23.regnumber      ,?
+dl23.sharehlds      ,corporate_structure.company_ownership.corporate_shareholder
+dl23.ultparcountry  ,corporate_structure.company_ownership.ult_par_country
+dl23.ultparname     ,corporate_structure.company_ownership.ult_parent_detail.commercial_name
+dl23.ultparregaddr1 ,corporate_structure.company_ownership.ult_parent_detail.business_location.location_line1
+dl23.ultparregaddr2 ,corporate_structure.company_ownership.ult_parent_detail.business_location.location_line2
+dl23.ultparregaddr3 ,corporate_structure.company_ownership.ult_parent_detail.business_location.location_line3
+dl23.ultparregaddr4 ,corporate_structure.company_ownership.ult_parent_detail.business_location.location_line4
+dl23.ultparregnum   ,corporate_structure.company_ownership.ult_par_reg_number
+dl23.ultparregpostcode,corporate_structure.company_ownership.ult_parent_detail.business_location.postcode
+dl23._seq           ,?
+dl24                ,corporate_structure.subsidiaries.foreign_subsidiaries
+dl26.agemostrecentccj,cc_js.age_most_recent_ccj
+dl26.numccj0to72    ,cc_js.number_cc_js0_to72
+dl26.numccj13to24   ,cc_js.number_cc_js13_to24
+dl26.numccj25to36   ,cc_js.number_cc_js25_to36
+dl26.numccj37to48   ,cc_js.number_cc_js37_to48
+dl26.numccj49to60   ,cc_js.number_cc_js49_to60
+dl26.numccj61to72   ,cc_js.number_cc_js61_to72
+dl26.numccjlast12   ,cc_js.number_cc_js_last12_months
+dl26.regnumber      ,?
+dl26.valccj0to72    ,cc_js.value_cc_js0_to72
+dl26.valccj13to24   ,cc_js.value_cc_js13_to24
+dl26.valccj25to36   ,cc_js.value_cc_js25_to36
+dl26.valccj37to48   ,cc_js.value_cc_js37_to48
+dl26.valccj49to60   ,cc_js.value_cc_js49_to60
+dl26.valccj61to72   ,cc_js.value_cc_js61_to72
+dl26.valccjlast12   ,cc_js.value_cc_js_last12_months
+dl26._seq           ,?
+dl27.regnumber      ,?
+dl27.summarycount   ,legal_notices.summary_count
+dl27.summaryline    ,legal_notices.summary_line
+dl27._seq           ,?
+dl28.datemostrecmort_dd,mortgages.date_most_recent_mort
+dl28.datemostrecmort_mm,mortgages.date_most_recent_mort
+dl28.datemostrecmort_yyyy,mortgages.date_most_recent_mort
+dl28.datemostrecsatfn_dd,mortgages.date_most_recent_sat
+dl28.datemostrecsatfn_mm,mortgages.date_most_recent_sat
+dl28.datemostrecsatfn_yyyy,mortgages.date_most_recent_sat
+dl28.nummorts       ,mortgages.num_mortgages
+dl28.numsatmorts    ,mortgages.num_sat_mortgages
+dl28.numunsatmorts  ,mortgages.num_unsat_mortgages
+dl28.recmortdateflg ,mortgages.rec_mort_date_flag
+dl28.regnumber      ,?
+dl28._seq           ,?
+dl33.auditors       ,identification.auditor.auditors
+dl33.auditorsremun  ,identification.auditor.remuneration
+dl33.auditqual      ,identification.auditor.audit_qual
+dl33.audittype      ,identification.auditor.audit_type
+dl33.currency       ,identification.auditor.currency
+dl33.dateaccs_dd    ,?
+dl33.dateaccs_mm    ,?
+dl33.dateaccs_yyyy  ,?
+dl33.nonauditfee    ,identification.auditor.non_audit_fee
+dl33.regnumber      ,?
+dl33._seq           ,?
+dl36.acidtestlower  ,financials.quartiles.full_quartiles.acid_test_lower
+dl36.acidtestmedian ,financials.quartiles.full_quartiles.acid_test_median
+dl36.acidtestupper  ,financials.quartiles.full_quartiles.acid_test_upper
+dl36.avremunemplower,financials.quartiles.full_quartiles.avg_rem_per_emp_lower
+dl36.avremunempmedian,financials.quartiles.full_quartiles.avg_rem_per_emp_median
+dl36.avremunempupper,financials.quartiles.full_quartiles.avg_rem_per_emp_upper
+dl36.borrowratiolower,financials.quartiles.full_quartiles.borrowing_ratio_lower
+dl36.borrowratiomedian,financials.quartiles.full_quartiles.borrowing_ratio_median
+dl36.borrowratiosupper,financials.quartiles.full_quartiles.borrowing_ratio_upper
+dl36.capempldperemplower,financials.quartiles.full_quartiles.cap_employed_per_emp_lower
+dl36.capempldperempmedian,financials.quartiles.full_quartiles.cap_employed_per_emp_median
+dl36.capempldperempupper,financials.quartiles.full_quartiles.cap_employed_per_emp_upper
+dl36.creditperiodlower,financials.quartiles.full_quartiles.credit_period_lower
+dl36.creditperiodmedian,financials.quartiles.full_quartiles.credit_period_median
+dl36.creditperiodupper,financials.quartiles.full_quartiles.credit_period_upper
+dl36.credrsdebtrslower,financials.quartiles.full_quartiles.trade_credrs_debtrs_lower
+dl36.credrsdebtrsmedian,financials.quartiles.full_quartiles.trade_credrs_debtrs_median
+dl36.credrsdebtrsupper,financials.quartiles.full_quartiles.trade_credrs_debtrs_upper
+dl36.currratiolower ,financials.quartiles.full_quartiles.current_ratio_lower
+dl36.currratiomedian,financials.quartiles.full_quartiles.current_ratio_median
+dl36.currratioupper ,financials.quartiles.full_quartiles.current_ratio_upper
+dl36.dateofaccs_dd  ,financials.quartiles.full_quartiles.date_of_accounts
+dl36.dateofaccs_mm  ,financials.quartiles.full_quartiles.date_of_accounts
+dl36.dateofaccs_yyyy,financials.quartiles.full_quartiles.date_of_accounts
+dl36.debtgearinglower,financials.quartiles.full_quartiles.debt_gearing_lower
+dl36.debtgearingmedian,financials.quartiles.full_quartiles.debt_gearing_median
+dl36.debtgearingupper,financials.quartiles.full_quartiles.debt_gearing_upper
+dl36.empremunsaleslower,financials.quartiles.full_quartiles.emp_remuneration_sales_lower
+dl36.empremunsalesmedian,financials.quartiles.full_quartiles.emp_remuneration_sales_median
+dl36.empremunsalesupper,financials.quartiles.full_quartiles.emp_remuneration_sales_upper
+dl36.equitygearinglower,financials.quartiles.full_quartiles.equity_gearing_lower
+dl36.equitygearingmedian,financials.quartiles.full_quartiles.equity_gearing_median
+dl36.equitygearingupper,financials.quartiles.full_quartiles.equity_gearing_upper
+dl36.interestcoverlower,financials.quartiles.full_quartiles.interest_cover_lower
+dl36.interestcovermedian,financials.quartiles.full_quartiles.interest_cover_median
+dl36.interestcoverupper,financials.quartiles.full_quartiles.interest_cover_upper
+dl36.lensicdesc1980 ,?
+dl36.lensicdesc1992 ,?
+dl36.numofcompanies ,financials.quartiles.full_quartiles.num_companies
+dl36.pretaxprofmarglower,financials.quartiles.full_quartiles.pre_tax_margin_lower
+dl36.pretaxprofmargmedian,financials.quartiles.full_quartiles.pre_tax_margin_median
+dl36.pretaxprofmargupper,financials.quartiles.full_quartiles.pre_tax_margin_upper
+dl36.profperemplower,financials.quartiles.full_quartiles.profit_per_emp_lower
+dl36.profperempmedian,financials.quartiles.full_quartiles.profit_per_emp_median
+dl36.profperempupper,financials.quartiles.full_quartiles.profit_per_emp_upper
+dl36.regnumber      ,?
+dl36.returnonasslower,financials.quartiles.full_quartiles.return_on_assets_lower
+dl36.returnonassmedian,financials.quartiles.full_quartiles.return_on_assets_median
+dl36.returnonassupper,financials.quartiles.full_quartiles.return_on_assets_upper
+dl36.returnoncaplower,financials.quartiles.full_quartiles.return_on_capital_lower
+dl36.returnoncapmedian,financials.quartiles.full_quartiles.return_on_capital_median
+dl36.returnoncapupper,financials.quartiles.full_quartiles.return_on_capital_upper
+dl36.returnonshfndslower,financials.quartiles.full_quartiles.return_on_shareholders_funds_lower
+dl36.returnonshfndsmedian,financials.quartiles.full_quartiles.return_on_shareholders_funds_median
+dl36.returnonshfndsupper,financials.quartiles.full_quartiles.return_on_shareholders_funds_upper
+dl36.salesperemplower,financials.quartiles.full_quartiles.turnover_per_emp_lower
+dl36.salesperempmedian,financials.quartiles.full_quartiles.turnover_per_emp_median
+dl36.salesperempupper,financials.quartiles.full_quartiles.turnover_per_emp_upper
+dl36.salestangasstslower,financials.quartiles.full_quartiles.sales_tang_assets_lower
+dl36.salestangasstsmedian,financials.quartiles.full_quartiles.sales_tang_assets_median
+dl36.salestangasstsupper,financials.quartiles.full_quartiles.sales_tang_assets_upper
+dl36.siccode        ,financials.quartiles.full_quartiles.sic_information1980.code
+dl36.siccode1992    ,financials.quartiles.full_quartiles.sic_information1992.code
+dl36.siccodedesc1980,financials.quartiles.full_quartiles.sic_information1980.description
+dl36.siccodedesc1992,financials.quartiles.full_quartiles.sic_information1992.description
+dl36.stocktnolower  ,financials.quartiles.full_quartiles.stock_turnover_lower
+dl36.stocktnomedian ,financials.quartiles.full_quartiles.stock_turnover_median
+dl36.stocktnoupper  ,financials.quartiles.full_quartiles.stock_turnover_upper
+dl36.tangasstsperemplower,financials.quartiles.full_quartiles.tang_assets_per_emp_lower
+dl36.tangasstsperempmedian,financials.quartiles.full_quartiles.tang_assets_per_emp_median
+dl36.tangasstsperempupper,financials.quartiles.full_quartiles.tang_assets_per_emp_upper
+dl36.totasstsperemplower,financials.quartiles.full_quartiles.tot_assets_per_emp_lower
+dl36.totasstsperempmedian,financials.quartiles.full_quartiles.tot_assets_per_emp_median
+dl36.totasstsperempupper,financials.quartiles.full_quartiles.tot_assets_per_emp_upper
+dl36.workcapsaleslower,financials.quartiles.full_quartiles.working_cap_lower
+dl36.workcapsalesmedian,financials.quartiles.full_quartiles.working_cap_median
+dl36.workcapsalesupper,financials.quartiles.full_quartiles.working_cap_upper
+dl36.yearend        ,financials.quartiles.full_quartiles.year_end
+dl36._seq           ,?
+dl38.avremunempchg  ,?
+dl38.borrowingchg   ,?
+dl38.capempchg      ,?
+dl38.compclass      ,?
+dl38.consaccs       ,?
+dl38.credperiodchg  ,?
+dl38.curassetstotchg,?
+dl38.curliabstotchg ,?
+dl38.currency       ,?
+dl38.currentchg     ,?
+dl38.dateaccs_dd    ,?
+dl38.dateaccs_mm    ,?
+dl38.dateaccs_yyyy  ,?
+dl38.debtgearchg    ,?
+dl38.equitygearchg  ,?
+dl38.expturnchg     ,?
+dl38.fixedassetestotchg,?
+dl38.grossassetschg ,?
+dl38.issuedcapchg   ,?
+dl38.netcurassetschg,?
+dl38.networthchg    ,?
+dl38.numempschg     ,?
+dl38.pretaxproflosschg,?
+dl38.pretaxprofmargchg,?
+dl38.profempchg     ,?
+dl38.regnumber      ,?
+dl38.retdearningschg,?
+dl38.retdproflosschg,?
+dl38.retncapitalchg ,?
+dl38.totnetassetchg ,?
+dl38.totshldrsfundschg,?
+dl38.totturnchg     ,?
+dl38.turnempchg     ,?
+dl38.ukturnchg      ,?
+dl38.weeks          ,?
+dl38._seq           ,?
+dl41.comnterms      ,payment_performance.payment_full.common_terms
+dl41.compavgdbt_12mth,payment_performance.payment_full.avg_dbt12_mnths
+dl41.compavgdbt_3mth,payment_performance.payment_full.avg_dbt3_mnths
+dl41.compavgdbt_6mth,payment_performance.payment_full.avg_dbt6_mnths
+dl41.compcforproforma,?
+dl41.compcollaccs   ,payment_performance.payment_full.number_collection
+dl41.compcollaccsval,payment_performance.payment_full.val_collection
+dl41.compdbtmthly   ,payment_performance.payment_full.company_dbt_monthly
+dl41.compnumdbt_1000,payment_performance.payment_full.number_dbt1_k
+dl41.compnumdbt_10000,payment_performance.payment_full.number_dbt10_k
+dl41.compnumdbt_100000,payment_performance.payment_full.number_dbt100_k
+dl41.compnumdbt_100000plus,payment_performance.payment_full.number_dbt100_k_plus
+dl41.compnummths    ,payment_performance.payment_full.company_num_mnths
+dl41.comppaypattn   ,payment_performance.payment_full.payment_pattern
+dl41.fastestmth_mm  ,payment_performance.payment_full.fastest_month
+dl41.fastestmth_yyyy,payment_performance.payment_full.fastest_month
+dl41.fastestpaymnt  ,payment_performance.payment_full.fastest_payment
+dl41.indavgdbt_12mth,payment_performance.payment_full.ind_avg_dbt12_mnths
+dl41.indavgdbt_3mth ,payment_performance.payment_full.ind_avg_dbt3_mnths
+dl41.indavgdbt_6mth ,payment_performance.payment_full.ind_avg_dbt6_mnths
+dl41.inddbtmthly    ,payment_performance.payment_full.ind_dbt_monthly
+dl41.indnumdbt_1000 ,payment_performance.payment_full.ind_number_dbt1_k
+dl41.indnumdbt_10000,payment_performance.payment_full.ind_number_dbt10_k
+dl41.indnumdbt_100000,payment_performance.payment_full.ind_number_dbt100_k
+dl41.indnumdbt_100000plus,payment_performance.payment_full.ind_number_dbt100_k_plus
+dl41.indnummths     ,payment_performance.payment_full.industry_num_mnths
+dl41.indpaypattn    ,payment_performance.payment_full.ind_payment_pattern
+dl41.indsicdesc     ,payment_performance.payment_full.industry_sic_desc
+dl41.lencomnterms   ,?
+dl41.lenindsicdesc  ,?
+dl41.numcomnterms   ,payment_performance.payment_full.num_common_terms
+dl41.paytoterms     ,payment_performance.payment_full.payment_to_terms
+dl41.regnumber      ,?
+dl41.slowestmth_mm  ,payment_performance.payment_full.slowest_month
+dl41.slowestmth_yyyy,payment_performance.payment_full.slowest_month
+dl41.slowestpaymnt  ,payment_performance.payment_full.slowest_payment
+dl41.supppaypattn   ,payment_performance.payment_full.supp_payment_pattern
+dl41.unpaidaccs     ,payment_performance.payment_full.unpaid_accounts_details
+dl41._seq           ,?
+dl42.apptslast12    ,management_info.num_appointments_last12
+dl42.currdirshipslast12,management_info.num_curr_director_last12
+dl42.dirsavgage     ,management_info.director_avg_age
+dl42.dirshipavglen  ,management_info.director_avg_length
+dl42.latestannualret_dd,management_info.latest_returns
+dl42.latestannualret_mm,management_info.latest_returns
+dl42.latestannualret_yyyy,management_info.latest_returns
+dl42.regnumber      ,?
+dl42.resnslast12    ,management_info.num_resignations_last12
+dl42.totcurrdirs    ,management_info.num_curr_dirs
+dl42.totdirs        ,management_info.num_dirs
+dl42.totdisquals    ,management_info.num_disqualifications
+dl42.totprevdirs    ,management_info.num_prev_dirs
+dl42.totsecretaries ,management_info.num_secs
+dl42._seq           ,?
+dl48                ,limited_company_cifas.limited_company_cifas_details
+dl49.numcifasrecs   ,limited_company_cifas.limited_company_cifas_summary.num_cifas_records
+dl49.regnumber      ,?
+dl49._seq           ,?
+dl52                ,legal_notices.notice6253
+dl53                ,cc_js.ccj_detail    
+dl54                ,legal_notices.wind_up.petition
+dl55                ,legal_notices.wind_up.dismissal
+dl56                ,legal_notices.meeting_creditors
+dl57                ,legal_notices.wind_up.resolution
+dl58                ,legal_notices.wind_up.order
+dl59                ,legal_notices.administrators.appointment
+dl61                ,legal_notices.liquidators
+dl62                ,legal_notices.vol_arrangement
+dl65                ,mortgages.mortgage_detail
+dl66                ,legal_notices.receiver.appointment
+dl67                ,legal_notices.receiver.cessation
+dl68                ,corporate_structure.subsidiaries.uk_subsidiaries
+dl69.numdissimmedsubsids,corporate_structure.subsidiaries.total_num_dissolved_liquidated_immediate_subs
+dl69.numdormimmedsubsids,corporate_structure.subsidiaries.total_num_dormant_immediate_subs
+dl69.numimmedsubsids,corporate_structure.subsidiaries.total_num_immediate_subs
+dl69.numliveimmedsubsids,corporate_structure.subsidiaries.total_num_live_immediate_subs
+dl69.numnestedsubsids,corporate_structure.subsidiaries.total_num_nested_subs
+dl69.numsubsids     ,corporate_structure.subsidiaries.total_subs
+dl69.regnumber      ,?
+dl69.totelements    ,corporate_structure.subsidiaries.total_elements
+dl69.treeposition   ,corporate_structure.subsidiaries.tree_position
+dl69._seq           ,?
+dl70.regnumber      ,?
+dl70.totnumforeignsubsids,corporate_structure.subsidiaries.total_num_overseas_subs
+dl70.totnumsubsids  ,corporate_structure.subsidiaries.total_num_subs
+dl70.totnumuksubsids,corporate_structure.subsidiaries.total_num_uk_subs
+dl70._seq           ,?
+dl72                ,management_info.directors.current_director
+dl73                ,management_info.directors.previous_director
+dl74                ,management_info.secretaries.current_secretary
+dl75                ,management_info.secretaries.previous_secretary
+dl76.overrideind    ,commercial_delphi.override_indicator
+dl76.regnumber      ,?
+dl76.riskband       ,commercial_delphi.comm_delphi_band
+dl76.riskbandtext   ,commercial_delphi.comm_delphi_band_text
+dl76.riskscore      ,commercial_delphi.comm_delphi_score
+dl76.stabilityodds  ,commercial_delphi.stability_odds
+dl76._seq           ,?
+dl77.creditrating   ,commercial_delphi.credit_rating
+dl77.overrideind    ,commercial_delphi.credit_rating_override_indicator
+dl77.regnumber      ,?
+dl77._seq           ,?
+dl78.creditlimit    ,commercial_delphi.credit_limit
+dl78.overrideind    ,commercial_delphi.credit_limit_override_indicator
+dl78.regnumber      ,?
+dl78._seq           ,?
+dl79.conclusiontext ,commercial_delphi.conclusion_text
+dl79.credittext1    ,commercial_delphi.credit_text_line1
+dl79.credittext2    ,commercial_delphi.credit_text_line2
+dl79.credittext3    ,commercial_delphi.credit_text_line3
+dl79.credittext4    ,commercial_delphi.credit_text_line4
+dl79.credittext5    ,commercial_delphi.credit_text_line5
+dl79.lenconclusion  ,?
+dl79.lencredittext  ,?
+dl79.parentind      ,commercial_delphi.parent_indicator
+dl79.regnumber      ,?
+dl79.textoverrideind,commercial_delphi.credit_text_override_indicator
+dl79._seq           ,?
+dl80.compage        ,scoring_data.company_age
+dl80.hassubsid      ,scoring_data.has_subsidiaries
+dl80.issubsid       ,scoring_data.is_subsidiary
+dl80.issuedcap      ,scoring_data.issued_capital
+dl80.issuedcapcurr  ,scoring_data.currency
+dl80.legalstatus    ,scoring_data.legal_status
+dl80.memchnglst12mth,scoring_data.num_mem_arts_changes_last12_months
+dl80.numemployees   ,scoring_data.num_employees
+dl80.region         ,scoring_data.region 
+dl80.regnumber      ,?
+dl80.regoffchnglst12mth,scoring_data.num_reg_office_changes_last12_months
+dl80.regoffcifasflg ,scoring_data.reg_office_cifas_indicator
+dl80.siccode1980    ,scoring_data.sic_information1980.code
+dl80.siccode1992    ,scoring_data.sic_information1992.code
+dl80.tslregoffchg   ,scoring_data.time_since_last_reg_office_change
+dl80._seq           ,?
+dl81.curtoprevdirlst12mth,scoring_data.proportion_curr_dirs_to_prev_dir_last12
+dl81.incompdirflg   ,scoring_data.incomplete_dirs_flag
+dl81.lastdirappt    ,scoring_data.time_since_last_dir_appt
+dl81.numcurdirs     ,scoring_data.num_curr_dirs
+dl81.numdirincorpagents,scoring_data.num_dirs_incorp_agents
+dl81.numdirwshares  ,scoring_data.num_dirs_holding_shares
+dl81.numdisqcurdirs ,scoring_data.num_disq_curr_dirs
+dl81.oldestcurdirage,scoring_data.oldest_curr_dir_age
+dl81.percapptslst12mth,scoring_data.num_appointments_last12
+dl81.percdirresiduk ,scoring_data.percentage_dirs_resident_uk
+dl81.regnumber      ,?
+dl81._seq           ,?
+dl82.lastadmnrecappt,scoring_data.time_since_last_appt_receiver
+dl82.lastadmnrecceasing,scoring_data.time_since_last_receiver_ceasing
+dl82.lastapptofadminr,scoring_data.time_since_last_appt_administrator
+dl82.lastcompdisslvenot,scoring_data.time_since_last_company_dissolved
+dl82.lastcompliquidrappt,scoring_data.time_since_last_appt_comp_liquidator
+dl82.lastcompreinstatdnot,scoring_data.time_since_last_company_reinstated
+dl82.lastcompwinduppet,scoring_data.time_since_last_petition_comp_wind_up
+dl82.lastderogdataitem,scoring_data.last_derogatory_item
+dl82.lastdischrgadminr,scoring_data.time_since_last_discharge_administrator
+dl82.lastdiscintentodisslvenot,?
+dl82.lastdismissedpet,scoring_data.time_since_last_dismissed_petition
+dl82.lastintentodisslvenot,scoring_data.time_since_last_intention_to_dissolve
+dl82.lastmeetofcred ,scoring_data.time_since_last_meeting_creditors
+dl82.lastreswindup  ,scoring_data.time_since_last_resolution_wind_up
+dl82.lastvolarrgmtappvl,scoring_data.time_since_last_approval_vol_arrangement
+dl82.lastvolarrgmtcompn,scoring_data.time_since_last_completion_vol_arrangement
+dl82.lastvolarrgmtrevn,scoring_data.time_since_last_revocation_vol_arrangement
+dl82.lastvolarrgmtsuspn,scoring_data.time_since_last_suspension_vol_arrangement
+dl82.lastvolliquidrappt,scoring_data.time_since_last_appt_vol_liquidator
+dl82.lastwinduporder,scoring_data.time_since_last_wind_up_order
+dl82.numadmnrecappts,scoring_data.num_appt_receiver
+dl82.numadmnrecceasing,scoring_data.num_receiver_ceasing
+dl82.numapptofadminrs,scoring_data.num_appt_administrator
+dl82.numcompdisslvenots,scoring_data.num_company_dissolved
+dl82.numcompliquidrappts,scoring_data.num_appt_comp_liquidator
+dl82.numcompreinstatdnots,scoring_data.num_company_reinstated
+dl82.numcompwinduppets,scoring_data.num_petition_comp_wind_up
+dl82.numdischrgadminrs,scoring_data.num_discharge_administrator
+dl82.numdiscintentodisslvenots,?
+dl82.numdismissedpets,scoring_data.num_dismissed_petition
+dl82.numintentodisslvenots,scoring_data.num_intention_to_dissolve
+dl82.nummeetcredrs  ,scoring_data.num_meetings_creditors
+dl82.numreswindup   ,scoring_data.num_resolution_wind_up
+dl82.numvolarrgmtappvls,scoring_data.num_approval_vol_arrangement
+dl82.numvolarrgmtcompns,scoring_data.num_completions_vol_arrangement
+dl82.numvolarrgmtrevns,scoring_data.num_revocation_voluntary_arrangement
+dl82.numvolarrgmtsuspns,scoring_data.num_suspension_vol_arrangement
+dl82.numvolliquidrappt,scoring_data.num_appt_vol_liquidator
+dl82.numwinduporders,scoring_data.num_wind_up_orders
+dl82.regnumber      ,?
+dl82.sincelastderogdataitem,scoring_data.time_since_last_derogatory_item
+dl82.tslwupdateofhearing,scoring_data.time_since_last_wind_up_hearing
+dl82._seq           ,?
+dl83.agemostrecentccj,scoring_data.age_most_recent_ccj
+dl83.ccjtoshftotl24m,scoring_data.val_cc_js_last24_months_prop_share_funds
+dl83.highestvalccj  ,scoring_data.highest_value_ccj
+dl83.numccj0to72    ,scoring_data.number_cc_js0_to72
+dl83.numccj13to24   ,scoring_data.number_cc_js13_to24
+dl83.numccj25to36   ,scoring_data.number_cc_js25_to36
+dl83.numccj37to48   ,scoring_data.number_cc_js37_to48
+dl83.numccj49to60   ,scoring_data.number_cc_js49_to60
+dl83.numccj61to72   ,scoring_data.number_cc_js61_to72
+dl83.numccjlast12   ,scoring_data.number_cc_js_last12_months
+dl83.regnumber      ,?
+dl83.totvalccjtoshfunds,scoring_data.tot_val_cc_js_prop_share_funds
+dl83.valccj0to72    ,scoring_data.value_cc_js0_to72
+dl83.valccj13to24   ,scoring_data.value_cc_js13_to24
+dl83.valccj25to36   ,scoring_data.value_cc_js25_to36
+dl83.valccj37to48   ,scoring_data.value_cc_js37_to48
+dl83.valccj49to60   ,scoring_data.value_cc_js49_to60
+dl83.valccj61to72   ,scoring_data.value_cc_js61_to72
+dl83.valccjlast12   ,scoring_data.value_cc_js_last12_months
+dl83.vallastccj     ,scoring_data.value_most_recent_ccj
+dl83._seq           ,?
+dl84.nummortchrgelast6yr,?
+dl84.numsatmortchrges,scoring_data.num_sat_mortgages
+dl84.numunsatmortchrges,scoring_data.num_unsat_mortgages
+dl84.numunsatpartmortchrges,scoring_data.num_unsat_part_sat_mortgages
+dl84.regnumber      ,?
+dl84._seq           ,?
+dl85.acctfichedate_dd,scoring_data.fiche_date
+dl85.acctfichedate_mm,scoring_data.fiche_date
+dl85.acctfichedate_yyyy,scoring_data.fiche_date
+dl85.acidtest       ,scoring_data.acid_test
+dl85.auditqual      ,scoring_data.auditors_qualifications
+dl85.audittype      ,scoring_data.audit_type
+dl85.basetrendshfunds,scoring_data.base_trend_shareholders_funds
+dl85.borrowingratio ,scoring_data.borrowing_ratio
+dl85.capitalemployed,scoring_data.capital_employed
+dl85.companyclass   ,scoring_data.company_class
+dl85.consolidatedaccts,scoring_data.cons_accounts
+dl85.credperiod     ,scoring_data.credit_period
+dl85.curacctsavail  ,scoring_data.curr_accs_availabe
+dl85.currency       ,?
+dl85.currencyprevaccts,scoring_data.prev_accs_currency
+dl85.currentassetstotal,scoring_data.total_current_assets
+dl85.currentliabilitiestotal,scoring_data.total_current_liabilities
+dl85.currentratio   ,scoring_data.currentratio
+dl85.dateofaccounts_dd,scoring_data.date_of_accounts
+dl85.dateofaccounts_mm,scoring_data.date_of_accounts
+dl85.dateofaccounts_yyyy,scoring_data.date_of_accounts
+dl85.debtgear       ,scoring_data.debt_gearing
+dl85.dividends      ,scoring_data.dividends
+dl85.dormancyflg    ,scoring_data.dormancy_flag
+dl85.equitygear     ,scoring_data.equity_gearing
+dl85.filedaccountstype,scoring_data.filed_accs_type
+dl85.fixedassetstotal,scoring_data.fixed_assets
+dl85.grossassets    ,scoring_data.gross_assets
+dl85.intangibleassets,scoring_data.intangible_assets
+dl85.issuedcapital  ,?
+dl85.latenessaccts  ,scoring_data.lateness_accounts
+dl85.latestaccstype ,scoring_data.latest_accounts_type
+dl85.liquidityratio ,scoring_data.liquidity_standard_ratio
+dl85.networth       ,scoring_data.net_worth
+dl85.numdaystofileaccs,scoring_data.number_days_to_file
+dl85.numofweeks     ,?
+dl85.numyrsacctsavail,scoring_data.num_years_accos_available
+dl85.numyrspretaxproflst4yrs,scoring_data.num_years_pre_tax_profit_less_than0_last4_years
+dl85.outofdateflg   ,scoring_data.out_of_date_flag
+dl85.perccapemploftotassts,scoring_data.capital_employed_percent_total_assets
+dl85.percchngecapempld,scoring_data.percent_change_capital_employed
+dl85.percchngecurratio,scoring_data.percent_change_current_ratio
+dl85.percchngepretaxprofloss,scoring_data.percent_change_pre_tax_profit_loss
+dl85.percchngeshfunds,scoring_data.percent_change_shareholders_funds
+dl85.percchngetotassts,scoring_data.percent_change_total_assets
+dl85.perccurliaboftotassts,scoring_data.current_liabilities_percent_total_assets
+dl85.percfasstsoftotassts,scoring_data.total_fixed_assets_percent_total_assets
+dl85.percstockofcurassts,scoring_data.stocks_work_in_progress_percent_current_assets
+dl85.percworkcapofcurplusfa,scoring_data.working_capital_percent_current_plus_fixed_assets
+dl85.pretaxmargin   ,scoring_data.pre_tax_profit_margin
+dl85.pretaxmarginquartile,scoring_data.pre_tax_margin_quartile
+dl85.pretaxprofitloss,scoring_data.pre_tax_profit_loss
+dl85.prevacctsavail ,scoring_data.prev_accs_availabile
+dl85.prevacctsdormflg,scoring_data.prev_accounts_dormancy_flag
+dl85.prevconsolaccts,scoring_data.prev_accs_cons_accounts
+dl85.regnumber      ,?
+dl85.retainedearnings,scoring_data.retained_earnings
+dl85.retainedprofitloss,scoring_data.retained_profit
+dl85.retnonassets   ,scoring_data.return_on_assets
+dl85.retnonasstsquartile,scoring_data.return_on_assets_quartile
+dl85.retnoncap      ,scoring_data.return_on_capital
+dl85.revaluationreserves,scoring_data.revaluation_reserves
+dl85.shorttermloans ,scoring_data.short_loans
+dl85.sincelastacctssubmtd,scoring_data.time_since_last_accs_submitted
+dl85.sincelastretnssubmtd,scoring_data.time_since_last_rets_submitted
+dl85.totallongtermliabilities,scoring_data.total_long_term_liabilities
+dl85.totalshareholdersfunds,scoring_data.shareholders_funds
+dl85.totalturnover  ,scoring_data.total_turnover
+dl85.totassets      ,scoring_data.total_assets
+dl85.totassets_emp  ,scoring_data.tot_assets_emp
+dl85.turn_emp       ,scoring_data.turnover_per_emp
+dl85.workingcapital ,scoring_data.working_capital
+dl85._seq           ,?
+dl86.agemostrecent  ,scoring_data.limited_company_delphi_cais.age_most_recent
+dl86.avgbalownaccounts,scoring_data.limited_company_delphi_cais.avg_balance_own_accounts
+dl86.balanceactiveaccounts,scoring_data.limited_company_delphi_cais.balance_active_accounts
+dl86.numactiveaccounts,scoring_data.limited_company_delphi_cais.num_active_accounts
+dl86.numdefaults    ,scoring_data.limited_company_delphi_cais.num_defaults
+dl86.numownaccounts ,scoring_data.limited_company_delphi_cais.num_own_accounts
+dl86.numsettled     ,scoring_data.limited_company_delphi_cais.num_settled
+dl86.regnumber      ,?
+dl86.totalbalownaccounts,scoring_data.limited_company_delphi_cais.total_balance_own_accounts
+dl86.valdefaults    ,scoring_data.limited_company_delphi_cais.value_defaults
+dl86.worststatusactive,scoring_data.limited_company_delphi_cais.worst_status_active
+dl86.worststatusold ,scoring_data.limited_company_delphi_cais.worst_status_old
+dl86._seq           ,?
+dl87.comdelphioverrideflg,?
+dl87.comdelphiscore ,?
+dl87.credcodeoverrideflg,?
+dl87.creditcode     ,?
+dl87.creditlimit    ,?
+dl87.creditrating   ,?
+dl87.credlimitoverrideflg,?
+dl87.credratoverrideflg,?
+dl87.regnumber      ,?
+dl87._seq           ,?
+dl88.numunpaidacctslstmth,?
+dl88.percchngedbtlst3mth,?
+dl88.ppavcurrdbt    ,?
+dl88.ppavnumexperlst3mth,?
+dl88.ppnumaccts4colnlst12mth,?
+dl88.regnumber      ,?
+dl88._seq           ,?
+dl89.regnumber      ,?
+dl89.rptupdateflag  ,scoring_data.report_update_flag
+dl89._seq           ,?
+dl95.agesincelast89 ,ltd_company_cais.ltd_company_cais_summary.age_since_last89
+dl95.monthcount     ,ltd_company_cais.ltd_company_cais_summary.month_count
+dl95.monthlydata    ,ltd_company_cais.ltd_company_cais_summary.monthly_data
+dl95.regnumber      ,?
+dl95._seq           ,?
+dl96.agesincelast89 ,limited_company_cais_members_summary.age_since_last89
+dl96.monthcount     ,limited_company_cais_members_summary.month_count
+dl96.monthlydata    ,limited_company_cais_members_summary.monthly_data
+dl96.regnumber      ,?
+dl96._seq           ,?
+dl97                ,ltd_company_cais.ltd_company_cais_details
+dl99                ,financials.accounts 
+dla2                ,financials.ratios   
+dla4.avremunempchg  ,financials.percentage_change.percent_change_avg_emp_per_rem
+dla4.borrowingchg   ,financials.percentage_change.percent_change_borrowing_ratio
+dla4.capempchg      ,financials.percentage_change.percent_change_capital_employed
+dla4.compclass      ,financials.percentage_change.company_class
+dla4.consaccs       ,financials.percentage_change.cons_accounts
+dla4.credperiodchg  ,financials.percentage_change.percent_change_credit_period
+dla4.curassetstotchg,financials.percentage_change.percent_change_current_assets
+dla4.curliabstotchg ,financials.percentage_change.percent_change_current_liabilities
+dla4.currency       ,financials.percentage_change.currency
+dla4.currentchg     ,?
+dla4.dateaccs_dd    ,financials.percentage_change.date_of_accounts
+dla4.dateaccs_mm    ,financials.percentage_change.date_of_accounts
+dla4.dateaccs_yyyy  ,financials.percentage_change.date_of_accounts
+dla4.debtgearchg    ,financials.percentage_change.percent_change_debt_gearing
+dla4.equitygearchg  ,financials.percentage_change.percent_change_equity_gearing
+dla4.expturnchg     ,financials.percentage_change.percent_change_export_turnover
+dla4.fixedassetestotchg,financials.percentage_change.percent_change_fixed_assets
+dla4.grossassetschg ,financials.percentage_change.percent_change_gross_asset
+dla4.issuedcapchg   ,financials.percentage_change.percent_change_issued_capital
+dla4.netcurassetschg,?
+dla4.networthchg    ,financials.percentage_change.percent_change_net_worth
+dla4.numempschg     ,financials.percentage_change.percent_change_num_employees
+dla4.pretaxproflosschg,financials.percentage_change.percent_change_pre_tax_profit_loss
+dla4.pretaxprofmargchg,financials.percentage_change.percent_change_pre_tax_profit_margin
+dla4.profempchg     ,financials.percentage_change.percent_change_prof_per_emp
+dla4.regnumber      ,?
+dla4.retdearningschg,financials.percentage_change.percent_change_retained_earnings
+dla4.retdproflosschg,financials.percentage_change.percent_change_retained_profit_loss
+dla4.retncapitalchg ,financials.percentage_change.percent_change_return_on_capital
+dla4.totnetassetchg ,?
+dla4.totshldrsfundschg,financials.percentage_change.percent_change_shareholders_funds
+dla4.totturnchg     ,financials.percentage_change.percent_change_total_turnover
+dla4.turnempchg     ,financials.percentage_change.percent_change_turnover_per_emp
+dla4.ukturnchg      ,financials.percentage_change.percent_change_uk_turnover
+dla4.weeks          ,?
+dla4._seq           ,?
+dla5                ,financials.cashflow 
+dla7.overrideind    ,commercial_delphi_history.company_history.override_indicator
+dla7.regnumber      ,?
+dla7.riskband       ,commercial_delphi_history.company_history.comm_delphi_band
+dla7.riskbandtext   ,commercial_delphi_history.company_history.comm_delphi_band_text
+dla7.riskscore      ,commercial_delphi_history.company_history.comm_delphi_score
+dla7.scorehistory   ,commercial_delphi_history.company_history.score_history
+dla7.scorehistorycount,commercial_delphi_history.company_history.score_history_count
+dla7.stabilityodds  ,commercial_delphi_history.company_history.stability_odds
+dla7.textcount      ,commercial_delphi_history.company_history.text_count
+dla7._seq           ,?
+dlb1.lastupdateddate,identification.thomson_data.last_updated_date
+dlb1.regnumber      ,?
+dlb1.thomsoncustomernumber,identification.thomson_data.thomson_cust_number
+dlb1.thomsonpremisecode,identification.thomson_data.thomson_premise_code
+dlb1.url            ,identification.thomson_data.url
+dlb1._seq           ,?
+dlb2.bulklist       ,?
+dlb2.curprevflag    ,?
+dlb2.dateloaded_dd  ,?
+dlb2.dateloaded_mm  ,?
+dlb2.dateloaded_yyyy,?
+dlb2.doctype        ,?
+dlb2.effectivedate_dd,?
+dlb2.effectivedate_mm,?
+dlb2.effectivedate_yyyy,?
+dlb2.issuedcapital  ,?
+dlb2.issuingcompany ,?
+dlb2.latestdatecurr_dd,?
+dlb2.latestdatecurr_mm,?
+dlb2.latestdatecurr_yyyy,?
+dlb2.latestdateupdate_dd,?
+dlb2.latestdateupdate_mm,?
+dlb2.latestdateupdate_yyyy,?
+dlb2.legalstatus    ,?
+dlb2.recordtype     ,?
+dlb2.suppressinfo   ,?
+dlb2._seq           ,?
+dlb3                ,shareholders.share_capital
+dlb4                ,shareholders.shareholdings
+dlb5                ,shareholders.shareholder
+dlb6.notecount      ,?
+dlb6.notelen        ,?
+dlb6.notes          ,?
+dlb6.regnumber      ,?
+dlb6._seq           ,?
+dlb7.age_compgroup  ,commercial_delphi_history.sector_score.age_comp_group
+dlb7.age_compsector ,commercial_delphi_history.sector_score.age_comp_sector
+dlb7.age_histscore  ,commercial_delphi_history.sector_score.age_historical_score.age_historical_average_delphi_score
+dlb7.age_recentriskscore,?
+dlb7.age_stabilityodds,commercial_delphi_history.sector_score.age_average_stability_odds
+dlb7.all_compgroup  ,commercial_delphi_history.sector_score.all_comp_group
+dlb7.all_histscore  ,commercial_delphi_history.sector_score.all_historical_score.all_historical_average_delphi_score
+dlb7.all_recentriskscore,?
+dlb7.all_stabilityodds,commercial_delphi_history.sector_score.all_average_stability_odds
+dlb7.ind_compgroup  ,commercial_delphi_history.sector_score.ind_comp_group
+dlb7.ind_compsector ,commercial_delphi_history.sector_score.ind_comp_sector
+dlb7.ind_histscore  ,commercial_delphi_history.sector_score.ind_historical_score.ind_historical_average_delphi_score
+dlb7.ind_recentriskscore,?
+dlb7.ind_stabilityodds,commercial_delphi_history.sector_score.ind_average_stability_odds
+dlb7.regnumber      ,?
+dlb7.scorehistorydate,commercial_delphi_history.sector_score.score_history_date
+dlb7.scorerecentdate_dd,commercial_delphi_history.sector_score.recent_snapshot_date
+dlb7.scorerecentdate_mm,commercial_delphi_history.sector_score.recent_snapshot_date
+dlb7.scorerecentdate_yyyy,commercial_delphi_history.sector_score.recent_snapshot_date
+dlb7.size_compgroup ,commercial_delphi_history.sector_score.size_comp_group
+dlb7.size_compsector,commercial_delphi_history.sector_score.size_comp_sector
+dlb7.size_histscore ,commercial_delphi_history.sector_score.size_historical_score.size_historical_average_delphi_score
+dlb7.size_recentriskscore,?
+dlb7.size_stabilityodds,commercial_delphi_history.sector_score.size_average_stability_odds
+dlb7._seq           ,?
+dlb8.age_compgroup  ,commercial_delphi_history.sector_ranking.age_comp_group
+dlb8.age_compsector ,commercial_delphi_history.sector_ranking.age_comp_sector
+dlb8.age_numhigherscore,commercial_delphi_history.sector_ranking.age_number_higher_score
+dlb8.age_numinsector,commercial_delphi_history.sector_ranking.age_number_sector
+dlb8.age_numlowerscore,commercial_delphi_history.sector_ranking.age_number_lower_score
+dlb8.age_numsamescore,commercial_delphi_history.sector_ranking.age_number_same_score
+dlb8.age_percentile ,commercial_delphi_history.sector_ranking.age_percentile
+dlb8.age_percinsector,commercial_delphi_history.sector_ranking.age_percent_sector
+dlb8.all_compgroup  ,commercial_delphi_history.sector_ranking.all_comp_group
+dlb8.all_numhigherscore,commercial_delphi_history.sector_ranking.all_number_higher_score
+dlb8.all_numinsector,commercial_delphi_history.sector_ranking.all_number_sector
+dlb8.all_numlowerscore,commercial_delphi_history.sector_ranking.all_number_lower_score
+dlb8.all_numsamescore,commercial_delphi_history.sector_ranking.all_number_same_score
+dlb8.all_percentile ,commercial_delphi_history.sector_ranking.all_percentile
+dlb8.all_percinsector,commercial_delphi_history.sector_ranking.all_percent_sector
+dlb8.ind_compgroup  ,commercial_delphi_history.sector_ranking.ind_comp_group
+dlb8.ind_compsector ,commercial_delphi_history.sector_ranking.ind_comp_sector
+dlb8.ind_numhigherscore,commercial_delphi_history.sector_ranking.ind_number_higher_score
+dlb8.ind_numinsector,commercial_delphi_history.sector_ranking.ind_number_sector
+dlb8.ind_numlowerscore,commercial_delphi_history.sector_ranking.ind_number_lower_score
+dlb8.ind_numsamescore,commercial_delphi_history.sector_ranking.ind_number_same_score
+dlb8.ind_percentile ,commercial_delphi_history.sector_ranking.ind_percentile
+dlb8.ind_percinsector,commercial_delphi_history.sector_ranking.ind_percent_sector
+dlb8.regnumber      ,?
+dlb8.size_compgroup ,commercial_delphi_history.sector_ranking.size_comp_group
+dlb8.size_compsector,commercial_delphi_history.sector_ranking.size_comp_sector
+dlb8.size_numhigherscore,commercial_delphi_history.sector_ranking.size_number_higher_score
+dlb8.size_numinsector,commercial_delphi_history.sector_ranking.size_number_sector
+dlb8.size_numlowerscore,commercial_delphi_history.sector_ranking.size_number_lower_score
+dlb8.size_numsamescore,commercial_delphi_history.sector_ranking.size_number_same_score
+dlb8.size_percentile,commercial_delphi_history.sector_ranking.size_percentile
+dlb8.size_percinsector,commercial_delphi_history.sector_ranking.size_percent_sector
+dlb8._seq           ,?
+dlb9.age_compgroup  ,commercial_delphi_history.sectors.age_comp_group
+dlb9.age_compgroupname,commercial_delphi_history.sectors.age_comp_group_name
+dlb9.age_compsector ,commercial_delphi_history.sectors.age_comp_group_sector
+dlb9.age_compsectornameend,commercial_delphi_history.sectors.age_comp_group_sector_end_date
+dlb9.age_compsectornamestart,commercial_delphi_history.sectors.age_comp_group_sector_start_date
+dlb9.all_compgroup  ,commercial_delphi_history.sectors.all_comp_group
+dlb9.all_compgroupname,commercial_delphi_history.sectors.all_comp_group_name
+dlb9.ind_compgroup  ,commercial_delphi_history.sectors.ind_comp_group
+dlb9.ind_compgroupname,commercial_delphi_history.sectors.ind_comp_group_name
+dlb9.ind_compsector ,commercial_delphi_history.sectors.ind_comp_group_sector
+dlb9.ind_compsectorname,commercial_delphi_history.sectors.ind_comp_group_sector_name
+dlb9.regnumber      ,?
+dlb9.size_compgroup ,commercial_delphi_history.sectors.size_comp_group
+dlb9.size_compgroupname,commercial_delphi_history.sectors.size_comp_group_name
+dlb9.size_compsector,commercial_delphi_history.sectors.size_comp_group_sector
+dlb9.size_compsectornameend,commercial_delphi_history.sectors.size_comp_group_sector_upper_bound
+dlb9.size_compsectornamestart,commercial_delphi_history.sectors.size_comp_group_sector_lower_bound
+dlb9._seq           ,?
+dm12.noccount       ,notice_of_correction.num_corrections
+dm12._seq           ,?
+_exp_experianref    ,?
+_id                 ,?
+_subtype            ,?
+_success            ,?
+_timestamp          ,?
+_type               ,?
+capture_date        ,__event_date
+company_uuid        ,?
+dlb2.latestdateprev_dd,?
+dlb2.latestdateprev_mm,?
+dlb2.latestdateprev_yyyy,?
+dlb2.lastlistdate_dd,?
+dlb2.lastlistdate_mm,?
+dlb2.lastlistdate_yyyy,?
+dl60.adminiraddr1   ,?
+dl60.adminiraddr2   ,?
+dl60.adminirfrmname ,?
+dl60.adminirname    ,?
+dl60.adminirpostcode,?
+dl60.adminrdischgedate_dd,?
+dl60.adminrdischgedate_mm,?
+dl60.adminrdischgedate_yyyy,?
+dl60.regnumber      ,?
+dl60._seq           ,?
+dl60.adminiraddr3   ,?
+dk11.caisflag       ,?
+dk11.caissource     ,?
+dk11.cifasflag      ,?
+dk11.demoflag       ,?
+dk11.pperfuser      ,?
+dk11._seq           ,?
+dk13.accessitems    ,?
+dk13.accessitemscount,?
+dk13._seq           ,?
+dl25.creditcode     ,?
+dl25.creditcodetxt  ,?
+dl25.credittxt      ,?
+dl25.lencreditcodeabstxt,?
+dl25.lencreditcodetxt,?
+dl25.lencredittxt   ,?
+dl25.regnumber      ,?
+dl25.updateavail    ,?
+dl25._seq           ,?
+dl39.lenriskindabs  ,?
+dl39.lenriskindnarr ,?
+dl39.regnumber      ,?
+dl39.riskindex      ,?
+dl39.riskindnarr    ,?
+dl39._seq           ,?
+dr50.legalstatus    ,?
+dr50.monitorstatus  ,?
+dr50.urn            ,?
+dr50._seq           ,?
+kptd.alertreview    ,?
+kptd.allowoptout    ,?
+kptd.blockversion   ,?
+kptd.dbprompt       ,?
+kptd.dbtype         ,?
+kptd.declink        ,?
+kptd.filler         ,?
+kptd.inhousecomp    ,?
+kptd.permoptout     ,?
+kptd.tpcomp         ,?
+kptd.transassoc     ,?
+kptd._seq           ,?
+dm11.nocref         ,?
+dm11.noctext        ,?
+dm11._seq           ,?
+dld5                ,?
+dld6                ,?
+dld7.monthcount     ,?
+dld7.monthlydata    ,?
+dld7.regnumber      ,?
+dld7.sourcecode     ,?
+dld7._seq           ,?
+dl60.adminiraddr4   ,?
+dl60.adminiraddr5   ,?
+processed_year      ,?
+processed_month     ,?
+processed_day       ,?
